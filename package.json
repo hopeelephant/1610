@@ -1,0 +1,27 @@
+{
+  "name": "hopeelephant",
+  "version": "1.0.0",
+  "description": "haha",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack index.js bundle.js -p",
+    "push":"git add -A && git commit -m'111' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hopeelephant/1610.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hopeelephant/1610/issues"
+  },
+  "homepage": "https://github.com/hopeelephant/1610#readme"
+}
